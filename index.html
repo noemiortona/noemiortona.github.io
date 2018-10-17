@@ -29,11 +29,13 @@
 	<script TYPE="text/javascript">
 	function verifica() {
 		if (document.getElementById("password").value=="scuolaebraica"){window.open("https://www.weschool.com/")}
-	else {document.write("PASSWORD ERRATA!!!")}}
+	else {document.write("PASSWORD ERRATA!!!")}
+	        if (document.getElementById("cognome").value==""){document.write("NON HAI INSERITO IL COGNOME")}
+	        if (document.getElementById("nome").value==""){document.write("NON HAI INSERITO IL NOME")}}
 	</script>
 	
-	<p class="dati"> Nome : <input type=”text” name=”nome” /> </p>
-        <p class="dati"> Cognome : <input type=”text” name=”cognome” /> </p>
+	<p class="dati"> Nome : <input type=”text” id="nome" name=”nome” /> </p>
+        <p class="dati"> Cognome : <input type=”text” id="cognome" name=”cognome” /> </p>
         <p class="dati"> Password : <input type="password" id="password" maxlength="13" size="18" value="" name="password" /> </p>
         <p> Accedi : <input type="button" value="Vai!" onClick= "verifica()" />
 		
