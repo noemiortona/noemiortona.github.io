@@ -9,8 +9,14 @@
 			body{
 				background-color: red;
 			}
-			#dati {
+			p{
+				color: pink;
+			}
+			.dati {
 				background-color: yellow;
+			}
+			#spiegazione {
+				background-color: blue;
 			}
 		</style>
 			
@@ -18,6 +24,7 @@
 		<body>
 		<h1>Per accedre al sito inserisci le credenziali</h1>
 		<img src="benvenuto.jpg">
+			<p id="spiegazione">Inserendo il tuo <em>nome</em>, <em>cognome</em> e la <em>password corretta</em> si aprirà un'altra finestra che ti manderà al sito <strong>WESCHOOL</strong></p>
 
 	<script TYPE="text/javascript">
 	function verifica() {
@@ -25,9 +32,9 @@
 	else {document.write("PASSWORD ERRATA!!!")}}
 	</script>
 	
-	<p id="dati"> Nome : <input type=”text” name=”nome” /> </p>
-        <p id="dati"> Cognome : <input type=”text” name=”cognome” /> </p>
-        <p id="dati"> Password : <input type="password" id="password" maxlength="13" size="18" value="" name="password" /> </p>
+	<p class="dati"> Nome : <input type=”text” name=”nome” /> </p>
+        <p class="dati"> Cognome : <input type=”text” name=”cognome” /> </p>
+        <p class="dati"> Password : <input type="password" id="password" maxlength="13" size="18" value="" name="password" /> </p>
         <p> Accedi : <input type="button" value="Vai!" onClick= "verifica()" />
 		
 		<form/>
