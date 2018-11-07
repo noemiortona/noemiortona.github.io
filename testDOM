@@ -14,7 +14,7 @@ Mario: Ci sono delle cose da perfezionare ma ottimo lavoro <span class="nome"> N
 var titoloEl = document.getElementById("titolo");
 titoloEl.innerHTML = "Benvenuti nel nuovo sito dela scuola statale programmato da Giovanna Rossi";
 var nomeEls = document.getElementByClassName ("nome");
-for (var i = o; i<nomeEls.lenght; i++);
+for (var i = o; i<nomeEls.length; i++);
 nomeEls[i].innerHTML="Giovanna";
 </script>
 </body>
