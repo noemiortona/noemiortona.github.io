@@ -15,7 +15,7 @@ var titoloEl = document.getElementById("titolo");
 titoloEl.innerHTML = "Benvenuti nel nuovo sito dela scuola statale programmato da Giovanna Rossi";
 var nomeEls = document.getElementByClassName ("nome");
 for (var i = o; i<nomeEls.lenght; i++);
-nomeEls[i]=innerHTML="Giovanna";
+nomeEls[i].innerHTML="Giovanna";
 </script>
 </body>
 </html>
