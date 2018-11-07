@@ -1,0 +1,13 @@
+<!DOCTIPE html>
+<html>
+      <head>
+      <title>test DOM</title>
+      </head>
+<body>
+<h1 id="titolo"> Benvenuti nel nuovo sito della scuola ebraica di Milano programmato da Noemi Ortona</h1>
+<script>
+var titoloEl = document.getElementById("titolo");
+titoloEl.innerHTML = "Benvenuti nel nuovo sito dela scuola statale programmato da Giovanna Rossi";
+</script>
+</body>
+</html>
