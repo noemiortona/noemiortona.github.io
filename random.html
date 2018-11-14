@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
 <body>
-<p> INTERROGA : <input type="button" value="Vai!" onClick= "verifica()" > </p>
+<p> INTERROGA : <input type="button" value="Vai!" onClick= "interroga()" > </p>
 <script>
-function verifica(){
-        var x = Math.floor(Math.random() * 10);
-        document.write(x)}
+function interroga(){
+        var x = Math.floor(Math.random() * 15);
+        document.getElementByTagName("li")[x].style.color="red";
+}
         </script>
+<p>Registro di classe
+        <li>Idan</li>
+        <li>Alex</li>
+        <li>Leam</li>
+        <li>Sacha</li>
+        <li>ichelle</li>
+        <li>Isaac</li>
+        <li>Jacopo</li>
+        <li>Gadi</li>
+        <li>Noemi</li>
+        <li>David</li>
+        <li>Gabriel</li>
+        <li>Leopoldo</li>
+        <li>Nicolò</li>
+        <li>Romina</li>
+        <li>Simon</li>
 </body>
 </html>
