@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+        <p> Per poter interrogare gli alunni inserisci le credenziali</p>
+         <p class="dati"> Professore : <input type=”text” id="nome" name=”nome” /> </p>
+         <p class="dati"> Password : <input type="password" id="password" maxlength="13" size="18" value="" name="password" /> </p>
         <p> INTERROGA : <input type="button" value="Vai!" onClick= "interroga()" > </p>
 <script>
 function interroga(){
         var x = Math.floor(Math.random() * 15);
-        document.getElementsByTagName("li")[x].style.color="red";
+        if (document.getElementById("password").value=="scuolaebraica"){document.getElementsByTagName("li")[x].style.color="red"};
+        else {document.write("PASSWORD ERRATA!!!")}
 }
         </script>
 <p>Registro di classe
