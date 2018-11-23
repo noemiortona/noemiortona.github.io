@@ -10,8 +10,9 @@ h1{
 <button id="button" type="button">CLICCAMI!!!</button>
 <script TYPE="text/javascript">
 function scappa(){
-
+button.position = position.absolute + 400;
 }
+addEventListener("mousemove", scappa);
 </script>
 </body>
 
