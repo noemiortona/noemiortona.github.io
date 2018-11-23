@@ -8,6 +8,11 @@ h1{
 <body>
 <h1><strong>CLICCA SUL BOTTONE PER VINCERE <em>500.000£</em></strong></h1>
 <button id="button" type="button">CLICCAMI!!!</button>
+<script TYPE="text/javascript">
+function scappa(){
+
+}
+</script>
 </body>
 
 
