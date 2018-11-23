@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1{
+   color: red;
+   }
+</style>
+<body>
+<h1><strong>CLICCA SUL BOTTONE PER VINCERE <em>500.000£</em></strong></h1>
+<button id="button" type="button">CLICCAMI!!!</button>
+</body>
+
+
+
+</html>
