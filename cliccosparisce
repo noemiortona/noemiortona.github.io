@@ -12,15 +12,12 @@ h1{
 <h1><strong>CLICCA SUL BOTTONE PER VINCERE <em>500.000£</em></strong></h1>
 <button id="button" type="button">CLICCAMI!!!</button>
 <script TYPE="text/javascript">
-var button = document.getElementByID ("button");
+var button = document.getElementById("button");
+button.addEventListener("mouseover", scappa);
 function scappa(){
-button.style.left = 100px;
-button.style.top = 50px;
+button.style.left = 100+"px";
+button.style.top = 50+"px";
 }
-addEventListener("mouseover", scappa);
+
 </script>
 </body>
-
-
-
-</html>
