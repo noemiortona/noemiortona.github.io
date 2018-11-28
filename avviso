@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BENVENUTO</title>
+</head>
+<style>
+#scritta{
+position: absolute;
+background-color: yellow;
+}
+</style>
+<body>
+<p id=scritta>Abbiamo aggiornato il sito, dai un'occhiata per saperne di più!</p>
+<script TYPE="text/javascript">
+var avviso = document.getElementById ("scritta");
+var startTime = new Date().getTime();
+var scorre = function () {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+      var newLeft = (40+((currTime-startTime)/1000)*30);
+      avviso.style.left=newLeft+"px";
+      window.requestAnimationFrame(scorre)
+  };
+  walkTheCat();
+</script>
+</body>
+</html>
