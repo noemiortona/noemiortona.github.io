@@ -15,8 +15,8 @@ h1{
 var button = document.getElementById("button");
 button.addEventListener("mouseover", scappa);
 function scappa(){
-button.style.left = 100+"px";
-button.style.top = 50+"px";
+button.style.left = Math.floor(Math.random() * 650)+"px";
+button.style.top = Math.floor(Math.random() * 500)+"px";
 }
 
 </script>
