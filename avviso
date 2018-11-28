@@ -21,7 +21,11 @@ var scorre = function () {
       avviso.style.left=newLeft+"px";
       window.requestAnimationFrame(scorre)
   };
-  walkTheCat();
+    scorre();
+if (avviso.style.left>600+"px"){
+avviso.style.left=0+"px";
+}
+
 </script>
 </body>
 </html>
