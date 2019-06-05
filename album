@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Album fotografico 3° Scientifico</title>
+<title>Il mio guardaroba</title>
 <style> table, th, td {border: 2px, solid, red};
         caption {font-family: Arial; font-weight: bold; color: blue;}
 </style>
 </head>
 <body>
 <table style="width:500px">
-     <caption> Album fotografico 3° Scientifico</caption>
+     <caption>I miei capi</caption>
      <tr>
         <td>
             <a target="_blank" href="C:\Users\usuario\Downloads\IMG_0369"
